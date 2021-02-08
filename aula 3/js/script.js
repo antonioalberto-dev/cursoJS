@@ -1,0 +1,1 @@
+alert('imprimindo alguma coisa')
