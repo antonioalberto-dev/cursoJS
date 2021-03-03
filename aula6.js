@@ -11,8 +11,6 @@ console.log(notas instanceof Array); // verifica se é uma instancia de array
 
 console.log(notas);
 
-function saudacao 
-
 const raiz = n => n ** 0.5; // arrow function
 
 console.log(raiz(9));

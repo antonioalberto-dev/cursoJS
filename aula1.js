@@ -32,7 +32,7 @@ console.log('--------------------------------------------');
 
 const PI = 3.1415;
 let raio = '2';
-let circunferencia = 2 * raio * PI**2;
+let circunferencia = 2 * raio * PI ** 2;
 
 console.log(circunferencia);
 
@@ -43,8 +43,13 @@ const PESO = 79.86;
 const IDADE = 21;
 const ALTURA = 1.79; //em metros
 
-let imc = PESO / (ALTURA * ALTURA); 
+let imc = PESO / (ALTURA * ALTURA);
 let anoNascimento = 2021 - 22;
 
 console.log('imc:', imc);
 console.log('ano de nascimento:', anoNascimento);
+
+const letras = ['a', 'b', 'c', 'd', 'e', 'f'];
+const [x, , y, ...resto] = letras;
+
+console.log(x, y, resto);
