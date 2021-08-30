@@ -1,1 +1,0 @@
-console.log("iniciando os estudos em JavaScript!");
